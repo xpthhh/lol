@@ -1232,3 +1232,120 @@ Accuracy on Random Test Samples: 1
 Time Usage: 0:01:07
 Accuracy on test-set: 99.0%
 Graph Saved
+2018-10-01-파이썬-강의내용정리.md
+이미지 테스트: Markdown
+
+이미지 테스트2: HTML
+
+간단한 계산기 구현해보기
+Python 2.x 버전에서는 input()이 아니라 raw_input()을 사용하기 때문에 형변환type casting을 해주어야 한다.
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep 18 16:25:52 2018
+@author: HDC_USER
+"""
+print "Multiple Calculator"
+
+num1 = raw_input("Input 1: ")
+
+num2 = raw_input("Input 2: ")
+
+print int(num1)*int(num2)
+# print "result: {}".format(int(input_val_1)*int(input_val_2))
+Return값이 있는 함수와 없는 함수
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Sep 18 16:25:52 2018
+@author: HDC_USER
+"""
+# 함수가 실행되면 리턴값이 존재하므로
+# 결과값을 사용할 수 있다. 
+def mul(val1, val2):
+    return int(val1)*int(val2)
+
+# 함수 내부에서 계산이 끝나기 때문에 
+# 결과값을 사용할 수 없다. 
+def mul2(val1, val2):
+    print int(val1)*int(val2)
+
+num3 = mul(10, 20)
+print mul(num3, 30)
+mul2(10,20)
+함수의 결과물을 통해 값을 얻기 위해선 주의
+수식 테스트
+
+
+J(w,b)=
+1
+m
+
+∑
+i=1
+m
+L(
+y
+^
+(i)
+,
+y
+(i)
+)
+λ
+2m
+
+∑
+l=1
+L
+||w||
+2
+F
+||w||
+2
+F
+=
+∑
+i=1
+n[l]
+∑
+j=1
+n[l−1]
+(
+w
+ij
+)
+2
+J(w,b)=1m∑i=1mL(y^(i),y(i))λ2m∑l=1L||w||F2||w||F2=∑i=1n[l]∑j=1n[l−1](wij)2
+
+나누기
+
+Facebook
+
+Print
+
+Evernote
+
+LinkedIn
+
+Email
+
+Twitter
+
+Copy Link
+
+
+
+겸손하게 하루하루 배운 것들을 나누는 공간
+Email Facebook 
+Newest Posts
+CNN 내용정리
+블로그 만들기
+파이썬 강의내용정리
+Table of contents
+
+2018-10-01-파이썬-강의내용정리.md
+이미지 테스트: Markdown
+이미지 테스트2: HTML
+간단한 계산기 구현해보기
+Return값이 있는 함수와 없는 함수
+수식 테스트
+© ⓒ
